@@ -7,8 +7,8 @@
       "kickoff": "2026-06-03T17:00:00Z",
       "tournament": "Stage 1",
       "tier": "s",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.2,
       "active_strategies_firing": []
     },
@@ -19,8 +19,8 @@
       "kickoff": "2026-06-03T17:00:00Z",
       "tournament": "Stage 1",
       "tier": "s",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.0,
       "active_strategies_firing": []
     },
@@ -31,8 +31,8 @@
       "kickoff": "2026-06-03T17:00:00Z",
       "tournament": "Playoffs",
       "tier": "b",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.2,
       "active_strategies_firing": []
     },
@@ -43,8 +43,8 @@
       "kickoff": "2026-06-04T08:00:00Z",
       "tournament": "Playoffs",
       "tier": "b",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.0,
       "active_strategies_firing": []
     },
@@ -55,8 +55,8 @@
       "kickoff": "2026-06-04T11:00:00Z",
       "tournament": "Playoffs",
       "tier": "b",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 2.28,
+      "odds_b": 1.72,
       "form_diff": -0.3,
       "active_strategies_firing": []
     },
@@ -67,8 +67,8 @@
       "kickoff": "2026-06-04T14:00:00Z",
       "tournament": "Playoffs",
       "tier": "b",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.3,
       "active_strategies_firing": [
         "Form Dominance Favorite",
@@ -83,8 +83,8 @@
       "kickoff": "2026-06-04T17:00:00Z",
       "tournament": "Playoffs",
       "tier": "b",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.2,
       "active_strategies_firing": [
         "Streak Momentum Steamroller",
@@ -99,8 +99,8 @@
       "kickoff": "2026-06-05T09:00:00Z",
       "tournament": "Playoffs",
       "tier": "b",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 2.28,
+      "odds_b": 1.72,
       "form_diff": -0.1,
       "active_strategies_firing": []
     },
@@ -111,8 +111,8 @@
       "kickoff": "2026-06-05T09:00:00Z",
       "tournament": "Playoffs",
       "tier": "a",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.1,
       "active_strategies_firing": []
     },
@@ -123,8 +123,8 @@
       "kickoff": "2026-06-06T08:00:00Z",
       "tournament": "Road to MSI",
       "tier": "a",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.2,
       "active_strategies_firing": []
     },
@@ -135,8 +135,8 @@
       "kickoff": "2026-06-06T09:00:00Z",
       "tournament": "Playoffs",
       "tier": "a",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 2.28,
+      "odds_b": 1.72,
       "form_diff": -0.2,
       "active_strategies_firing": []
     },
@@ -147,8 +147,8 @@
       "kickoff": "2026-06-06T15:00:00Z",
       "tournament": "Playoffs",
       "tier": "a",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.0,
       "active_strategies_firing": []
     },
@@ -159,8 +159,8 @@
       "kickoff": "2026-06-06T16:00:00Z",
       "tournament": "Playoffs",
       "tier": "a",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.2,
       "active_strategies_firing": []
     },
@@ -171,8 +171,8 @@
       "kickoff": "2026-06-06T20:00:00Z",
       "tournament": "Playoffs",
       "tier": "a",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.0,
       "active_strategies_firing": []
     },
@@ -183,8 +183,8 @@
       "kickoff": "2026-06-07T09:00:00Z",
       "tournament": "Playoffs",
       "tier": "a",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.1,
       "active_strategies_firing": []
     },
@@ -195,8 +195,8 @@
       "kickoff": "2026-06-07T16:00:00Z",
       "tournament": "Playoffs",
       "tier": "b",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.0,
       "active_strategies_firing": [
         "Streak Momentum Steamroller",
@@ -211,8 +211,8 @@
       "kickoff": "2026-06-07T16:00:00Z",
       "tournament": "Playoffs",
       "tier": "b",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.3,
       "active_strategies_firing": [
         "Form Dominance Favorite",
@@ -227,8 +227,8 @@
       "kickoff": "2026-06-07T16:00:00Z",
       "tournament": "Playoffs",
       "tier": "b",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.5,
       "active_strategies_firing": [
         "Form Dominance Favorite",
@@ -246,8 +246,8 @@
       "kickoff": "2026-06-07T20:00:00Z",
       "tournament": "Playoffs",
       "tier": "a",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 1.72,
+      "odds_b": 2.28,
       "form_diff": 0.1,
       "active_strategies_firing": [
         "Streak Momentum Steamroller",
@@ -262,8 +262,8 @@
       "kickoff": "2026-06-12T08:00:00Z",
       "tournament": "Road to MSI",
       "tier": "a",
-      "odds_a": null,
-      "odds_b": null,
+      "odds_a": 2.28,
+      "odds_b": 1.72,
       "form_diff": -0.3,
       "active_strategies_firing": [
         "Streak Momentum Steamroller",
@@ -272,5 +272,5 @@
       ]
     }
   ],
-  "published_at": "2026-06-03T15:13:30.278284+00:00"
+  "published_at": "2026-06-03T15:14:59.872107+00:00"
 }

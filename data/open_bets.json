@@ -1,4 +1,65 @@
 {
-  "bets": [],
-  "published_at": "2026-06-03T15:13:30.278284+00:00"
+  "bets": [
+    {
+      "id": "bet_1504739_FormDom",
+      "fixture_id": 1504739,
+      "game": "csgo",
+      "strategy_name": "Form Dominance Favorite",
+      "strategy_family": "form",
+      "team_a": "100 Thieves",
+      "team_b": "Ursa",
+      "kickoff": "2026-06-04T14:00:00Z",
+      "tournament": "Playoffs",
+      "selection": "FAVORITE",
+      "resolved_selection": "TEAM_A",
+      "odds": 1.72,
+      "effective_odds": 1.6168,
+      "stake": 300.0,
+      "status": "OPEN",
+      "placed_at": "2026-06-03T15:14:57.782814+00:00",
+      "outcome": null,
+      "pnl": null
+    },
+    {
+      "id": "bet_1504740_StreakM",
+      "fixture_id": 1504740,
+      "game": "csgo",
+      "strategy_name": "Streak Momentum Steamroller",
+      "strategy_family": "momentum",
+      "team_a": "AM Gaming",
+      "team_b": "ex-RUBY",
+      "kickoff": "2026-06-04T17:00:00Z",
+      "tournament": "Playoffs",
+      "selection": "FAVORITE",
+      "resolved_selection": "TEAM_A",
+      "odds": 1.72,
+      "effective_odds": 1.6168,
+      "stake": 400.0,
+      "status": "OPEN",
+      "placed_at": "2026-06-03T15:14:57.782838+00:00",
+      "outcome": null,
+      "pnl": null
+    },
+    {
+      "id": "bet_1520678_StreakM",
+      "fixture_id": 1520678,
+      "game": "lol",
+      "strategy_name": "Streak Momentum Steamroller",
+      "strategy_family": "momentum",
+      "team_a": "LOUD",
+      "team_b": "Vivo Keyd Stars",
+      "kickoff": "2026-06-07T16:00:00Z",
+      "tournament": "Playoffs",
+      "selection": "FAVORITE",
+      "resolved_selection": "TEAM_A",
+      "odds": 1.72,
+      "effective_odds": 1.6168,
+      "stake": 400.0,
+      "status": "OPEN",
+      "placed_at": "2026-06-03T15:14:57.782949+00:00",
+      "outcome": null,
+      "pnl": null
+    }
+  ],
+  "published_at": "2026-06-03T15:14:59.872107+00:00"
 }
