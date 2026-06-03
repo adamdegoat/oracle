@@ -235,7 +235,214 @@
       "live_wr": null,
       "live_n": 0,
       "activated_at": ""
+    },
+    {
+      "name": "Home Fortress vs Road Strugglers",
+      "family": "form",
+      "status": "REJECTED",
+      "selection": "HOME",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Back in-form home sides against teams who consistently struggle to pick up points on the road, confirmed by market pricing the home side as favorite \u2014 compounding structural home advantage with a genuine form gap.",
+      "gauntlet_is": {
+        "sharpe": -2.592,
+        "win_rate": 0.515,
+        "accuracy": 51.5,
+        "total_trades": 206,
+        "max_dd": 0.69,
+        "profit_factor": 0.665,
+        "roi": -0.609
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Defensive Grind Under 2.5",
+      "family": "goals",
+      "status": "REJECTED",
+      "selection": "UNDER_2.5",
+      "logic": "AND",
+      "conditions": 3,
+      "rationale": "When both teams are stingy scorers in their respective venues and their head-to-head history is low-scoring, under 2.5 goals is structurally well-supported across all three evidence layers.",
+      "gauntlet_is": {
+        "sharpe": -0.641,
+        "win_rate": 0.45,
+        "accuracy": 45.0,
+        "total_trades": 60,
+        "max_dd": 0.187,
+        "profit_factor": 0.889,
+        "roi": -0.103
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "H2H Draw Value Miner",
+      "family": "h2h",
+      "status": "REJECTED",
+      "selection": "DRAW",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Exploit market underpricing of draws when H2H history shows draws occur more than 1-in-3, the match is not a clear home walkover, and the away side has enough recent quality to avoid a routine defeat.",
+      "gauntlet_is": {
+        "sharpe": 0.344,
+        "win_rate": 0.312,
+        "accuracy": 31.2,
+        "total_trades": 369,
+        "max_dd": 0.486,
+        "profit_factor": 1.012,
+        "roi": 0.077
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Home Fortress vs Struggling Visitor",
+      "family": "form",
+      "status": "REJECTED",
+      "selection": "HOME",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "A dominant home side (nearly 2 pts/game at home) hosting a team that struggles on the road creates a structural venue-form mismatch; the odds cap ensures the market hasn't already fully priced this in.",
+      "gauntlet_is": {
+        "sharpe": -3.002,
+        "win_rate": 0.507,
+        "accuracy": 50.7,
+        "total_trades": 136,
+        "max_dd": 0.593,
+        "profit_factor": 0.638,
+        "roi": -0.507
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "H2H Draw Magnet Market Misprice",
+      "family": "h2h",
+      "status": "REJECTED",
+      "selection": "DRAW",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "When two rivals draw at least 1-in-3 meetings historically but the market prices draws below 27%, and neither side has a clear form edge or prolific attack, there is positive expected value on the draw outcome.",
+      "gauntlet_is": {
+        "sharpe": 1.028,
+        "win_rate": 0.318,
+        "accuracy": 31.8,
+        "total_trades": 129,
+        "max_dd": 0.27,
+        "profit_factor": 1.14,
+        "roi": 0.228
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Leaky Defenses Goal Glut",
+      "family": "goals",
+      "status": "REJECTED",
+      "selection": "OVER_2.5",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Both defenses are leaking over a goal per game in their relevant venues, the attacking output metric already exceeds 2.7, and the fixture's own H2H history confirms a high-scoring pattern \u2014 three independent signals all pointing to goals.",
+      "gauntlet_is": {},
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Home Fortress vs Road Struggler",
+      "family": "form",
+      "status": "REJECTED",
+      "selection": "HOME",
+      "logic": "AND",
+      "conditions": 3,
+      "rationale": "A home side with a dominant home record hosting a team that both loses points and leaks goals on the road creates a structural venue-form edge the market frequently underweights.",
+      "gauntlet_is": {
+        "sharpe": -2.952,
+        "win_rate": 0.475,
+        "accuracy": 47.5,
+        "total_trades": 181,
+        "max_dd": 0.694,
+        "profit_factor": 0.63,
+        "roi": -0.627
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Attack Overload Over 2.5",
+      "family": "goals",
+      "status": "REJECTED",
+      "selection": "OVER_2.5",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "A prolific home attack facing a defensively porous away side, confirmed by both historical H2H goal volume and current combined scoring rates, produces a high-probability over outcome regardless of which team wins.",
+      "gauntlet_is": {},
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Parity Draw Value",
+      "family": "h2h",
+      "status": "REJECTED",
+      "selection": "DRAW",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "When H2H history shows a structural draw tendency between two evenly matched sides in current form, and the market prices the draw below its historical base rate, the draw carries positive expected value at the typical 3.50\u20133.80 price range.",
+      "gauntlet_is": {
+        "sharpe": -0.198,
+        "win_rate": 0.285,
+        "accuracy": 28.5,
+        "total_trades": 144,
+        "max_dd": 0.687,
+        "profit_factor": 0.922,
+        "roi": -0.317
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Leaky Defenses Goal Fest",
+      "family": "goals",
+      "status": "REJECTED",
+      "selection": "OVER_2.5",
+      "logic": "AND",
+      "conditions": 3,
+      "rationale": "High combined scoring expectation plus a leaky home defense against a productive away attack structurally favors a multi-goal game.",
+      "gauntlet_is": {},
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Form Reversal Away Value",
+      "family": "mixed",
+      "status": "REJECTED",
+      "selection": "AWAY",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Exploit persistent market bias toward home favorites when the away team's recent form is measurably superior and their market probability is underpriced.",
+      "gauntlet_is": {
+        "sharpe": -0.787,
+        "win_rate": 0.297,
+        "accuracy": 29.7,
+        "total_trades": 64,
+        "max_dd": 0.264,
+        "profit_factor": 0.874,
+        "roi": -0.111
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
     }
   ],
-  "published_at": "2026-06-03T13:33:47.118309+00:00"
+  "published_at": "2026-06-03T13:40:59.047922+00:00"
 }
