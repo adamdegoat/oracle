@@ -1,4 +1,276 @@
 {
-  "fixtures": [],
-  "published_at": "2026-06-03T15:10:18.386163+00:00"
+  "fixtures": [
+    {
+      "team_a": "Gaimin Gladiators",
+      "team_b": "Heroic",
+      "game": "csgo",
+      "kickoff": "2026-06-03T17:00:00Z",
+      "tournament": "Stage 1",
+      "tier": "s",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.2,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "M80",
+      "team_b": "B8",
+      "game": "csgo",
+      "kickoff": "2026-06-03T17:00:00Z",
+      "tournament": "Stage 1",
+      "tier": "s",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.0,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "Tricked",
+      "team_b": "Phantom",
+      "game": "csgo",
+      "kickoff": "2026-06-03T17:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.2,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "Nemiga",
+      "team_b": "Bushido Wildcats",
+      "game": "csgo",
+      "kickoff": "2026-06-04T08:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.0,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "Betclic Apogee Esports",
+      "team_b": "KOLESIE",
+      "game": "csgo",
+      "kickoff": "2026-06-04T11:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": -0.3,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "100 Thieves",
+      "team_b": "Ursa",
+      "game": "csgo",
+      "kickoff": "2026-06-04T14:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.3,
+      "active_strategies_firing": [
+        "Form Dominance Favorite",
+        "elite-form-favorite",
+        "Elite Form Domination"
+      ]
+    },
+    {
+      "team_a": "AM Gaming",
+      "team_b": "ex-RUBY",
+      "game": "csgo",
+      "kickoff": "2026-06-04T17:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.2,
+      "active_strategies_firing": [
+        "Streak Momentum Steamroller",
+        "hot-streak-momentum",
+        "Hot Streak Momentum"
+      ]
+    },
+    {
+      "team_a": "MVK Esports",
+      "team_b": "GAM Esports",
+      "game": "lol",
+      "kickoff": "2026-06-05T09:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": -0.1,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "Anyone's Legend",
+      "team_b": "LGD Gaming",
+      "game": "lol",
+      "kickoff": "2026-06-05T09:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "a",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.1,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "Dplus KIA",
+      "team_b": "HANJIN BRION",
+      "game": "lol",
+      "kickoff": "2026-06-06T08:00:00Z",
+      "tournament": "Road to MSI",
+      "tier": "a",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.2,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "JD Gaming",
+      "team_b": "Bilibili Gaming",
+      "game": "lol",
+      "kickoff": "2026-06-06T09:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "a",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": -0.2,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "Movistar KOI",
+      "team_b": "Karmine Corp",
+      "game": "lol",
+      "kickoff": "2026-06-06T15:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "a",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.0,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "FURIA Esports",
+      "team_b": "LOS",
+      "game": "lol",
+      "kickoff": "2026-06-06T16:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "a",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.2,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "FlyQuest",
+      "team_b": "Team Liquid",
+      "game": "lol",
+      "kickoff": "2026-06-06T20:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "a",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.0,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "Top Esports",
+      "team_b": "Team WE",
+      "game": "lol",
+      "kickoff": "2026-06-07T09:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "a",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.1,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "LOUD",
+      "team_b": "Vivo Keyd Stars",
+      "game": "lol",
+      "kickoff": "2026-06-07T16:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.0,
+      "active_strategies_firing": [
+        "Streak Momentum Steamroller",
+        "hot-streak-momentum",
+        "Hot Streak Momentum"
+      ]
+    },
+    {
+      "team_a": "Fluxo W7M",
+      "team_b": "paiN Gaming",
+      "game": "lol",
+      "kickoff": "2026-06-07T16:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.3,
+      "active_strategies_firing": [
+        "Form Dominance Favorite",
+        "elite-form-favorite",
+        "Elite Form Domination"
+      ]
+    },
+    {
+      "team_a": "RED Canids",
+      "team_b": "Leviatan Esports",
+      "game": "lol",
+      "kickoff": "2026-06-07T16:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.5,
+      "active_strategies_firing": [
+        "Form Dominance Favorite",
+        "Streak Momentum Steamroller",
+        "elite-form-favorite",
+        "hot-streak-momentum",
+        "Elite Form Domination",
+        "Hot Streak Momentum"
+      ]
+    },
+    {
+      "team_a": "Cloud9",
+      "team_b": "LYON",
+      "game": "lol",
+      "kickoff": "2026-06-07T20:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "a",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": 0.1,
+      "active_strategies_firing": [
+        "Streak Momentum Steamroller",
+        "hot-streak-momentum",
+        "Hot Streak Momentum"
+      ]
+    },
+    {
+      "team_a": "Hanwha Life Esports",
+      "team_b": "T1",
+      "game": "lol",
+      "kickoff": "2026-06-12T08:00:00Z",
+      "tournament": "Road to MSI",
+      "tier": "a",
+      "odds_a": null,
+      "odds_b": null,
+      "form_diff": -0.3,
+      "active_strategies_firing": [
+        "Streak Momentum Steamroller",
+        "hot-streak-momentum",
+        "Hot Streak Momentum"
+      ]
+    }
+  ],
+  "published_at": "2026-06-03T15:13:30.278284+00:00"
 }
