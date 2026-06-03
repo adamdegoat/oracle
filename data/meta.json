@@ -1,8 +1,8 @@
 {
-  "published_at": "2026-06-03T00:00:00+00:00",
+  "published_at": "2026-06-03T13:33:47.118309+00:00",
   "active_strategies": 0,
-  "total_strategies": 0,
+  "total_strategies": 12,
   "portfolio_equity": 10000.0,
   "roi": 0.0,
-  "win_rate": 0.0
+  "win_rate": 0
 }

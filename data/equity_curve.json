@@ -1,1 +1,10 @@
-{"curve": [{"date": "", "equity": 10000.0, "label": "Start"}], "published_at": "2026-06-03T00:00:00+00:00"}
+{
+  "curve": [
+    {
+      "date": "",
+      "equity": 10000.0,
+      "label": "Start"
+    }
+  ],
+  "published_at": "2026-06-03T13:33:47.118309+00:00"
+}

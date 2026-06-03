@@ -1,1 +1,241 @@
-{"strategies": [], "published_at": "2026-06-03T00:00:00+00:00"}
+{
+  "strategies": [
+    {
+      "name": "Fortress Home vs Road Struggler",
+      "family": "form",
+      "status": "REJECTED",
+      "selection": "HOME",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "A home side averaging over 2 points per home game hosting a visitor who earns under 1 point on the road represents a structural form edge that markets systematically underweight when implied home probability sits below 60%.",
+      "gauntlet_is": {
+        "sharpe": -4.755,
+        "win_rate": 0.429,
+        "accuracy": 42.9,
+        "total_trades": 21,
+        "max_dd": 0.188,
+        "profit_factor": 0.514,
+        "roi": -0.16
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Leaky Defenses Open-Goals Clash",
+      "family": "goals",
+      "status": "REJECTED",
+      "selection": "OVER_2.5",
+      "logic": "AND",
+      "conditions": 3,
+      "rationale": "A prolific home attack meeting a defensively porous away side in a fixture with a high-scoring H2H history creates compounding goal probability that over-2.5 lines routinely fail to reflect.",
+      "gauntlet_is": {
+        "sharpe": -2.722,
+        "win_rate": 0.5,
+        "accuracy": 50.0,
+        "total_trades": 72,
+        "max_dd": 0.338,
+        "profit_factor": 0.686,
+        "roi": -0.295
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Deadlock Derby Draw Hunter",
+      "family": "h2h",
+      "status": "REJECTED",
+      "selection": "DRAW",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Rivalries where over a third of meetings end level, the home side is not dominant at home, and the away team is competent on the road produce draws at a rate the market's draw price undervalues.",
+      "gauntlet_is": {
+        "sharpe": -0.376,
+        "win_rate": 0.311,
+        "accuracy": 31.1,
+        "total_trades": 122,
+        "max_dd": 0.357,
+        "profit_factor": 0.936,
+        "roi": -0.125
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Home Fortress Dominance",
+      "family": "form",
+      "status": "REJECTED",
+      "selection": "HOME",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Back strong home sides with elite home points-per-game against visitors who consistently fail to pick up points on the road, exploiting venue-specific form divergence.",
+      "gauntlet_is": {
+        "sharpe": -4.363,
+        "win_rate": 0.461,
+        "accuracy": 46.1,
+        "total_trades": 89,
+        "max_dd": 0.638,
+        "profit_factor": 0.545,
+        "roi": -0.587
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Defensive Stalemate Under 2.5",
+      "family": "goals",
+      "status": "REJECTED",
+      "selection": "UNDER_2.5",
+      "logic": "AND",
+      "conditions": 3,
+      "rationale": "When both teams are low-scorers in recent form AND their head-to-head history is historically tight, the structural goal expectation is well below the 2.5 line.",
+      "gauntlet_is": {
+        "sharpe": 2.324,
+        "win_rate": 0.625,
+        "accuracy": 62.5,
+        "total_trades": 24,
+        "max_dd": 0.129,
+        "profit_factor": 1.334,
+        "roi": 0.091
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Draw Value in Balanced Fixtures",
+      "family": "h2h",
+      "status": "REJECTED",
+      "selection": "DRAW",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Exploit market mispricing of draws when historical H2H draw frequency exceeds the market's implied probability and neither team holds a meaningful form advantage.",
+      "gauntlet_is": {
+        "sharpe": -1.211,
+        "win_rate": 0.25,
+        "accuracy": 25.0,
+        "total_trades": 124,
+        "max_dd": 0.5,
+        "profit_factor": 0.821,
+        "roi": -0.294
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Fortress Home vs Road-Weary Visitor",
+      "family": "form",
+      "status": "REJECTED",
+      "selection": "HOME",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Backs a team with dominant home-specific form against a side that consistently struggles on the road, exploiting venue-specific performance gaps the market tends to underweight relative to aggregate form.",
+      "gauntlet_is": {
+        "sharpe": -2.43,
+        "win_rate": 0.529,
+        "accuracy": 52.9,
+        "total_trades": 153,
+        "max_dd": 0.684,
+        "profit_factor": 0.671,
+        "roi": -0.586
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "High-Octane Goal Fest",
+      "family": "goals",
+      "status": "REJECTED",
+      "selection": "OVER_2.5",
+      "logic": "AND",
+      "conditions": 3,
+      "rationale": "Targets fixtures where both sides carry genuine attacking threat in their respective venues and the head-to-head history independently confirms a pattern of high-scoring encounters, creating structural over-2.5 value.",
+      "gauntlet_is": {},
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Deadlock Draw \u2014 Underpriced Stalemate",
+      "family": "h2h",
+      "status": "REJECTED",
+      "selection": "DRAW",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Exploits bookmaker mispricing of draws in historically stalemate-prone rivalries where current form confirms a genuinely balanced contest, capturing the systematic market tendency to overestimate the probability of a decisive outcome.",
+      "gauntlet_is": {
+        "sharpe": -0.234,
+        "win_rate": 0.294,
+        "accuracy": 29.4,
+        "total_trades": 214,
+        "max_dd": 0.579,
+        "profit_factor": 0.946,
+        "roi": -0.176
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Home Fortress vs Travelling Weakness",
+      "family": "form",
+      "status": "REJECTED",
+      "selection": "HOME",
+      "logic": "AND",
+      "conditions": 3,
+      "rationale": "A home side in dominant home form hosting a team that consistently fails on the road creates a structural edge the market systematically underweights when it anchors too heavily on overall form rather than venue-split form.",
+      "gauntlet_is": {
+        "sharpe": -2.941,
+        "win_rate": 0.508,
+        "accuracy": 50.8,
+        "total_trades": 191,
+        "max_dd": 0.689,
+        "profit_factor": 0.622,
+        "roi": -0.621
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "Prolific Clash Goal Fest",
+      "family": "goals",
+      "status": "REJECTED",
+      "selection": "OVER_2.5",
+      "logic": "AND",
+      "conditions": 3,
+      "rationale": "When both sides are independently prolific in their own role and their head-to-head history confirms an open-game pattern, the probability of 3+ goals is structurally higher than the market prices.",
+      "gauntlet_is": {},
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    },
+    {
+      "name": "H2H Draw Magnet Market Mismatch",
+      "family": "h2h",
+      "status": "REJECTED",
+      "selection": "DRAW",
+      "logic": "AND",
+      "conditions": 4,
+      "rationale": "Evenly matched rivals with a high historical draw frequency become a positive-EV draw bet when the market underprices the draw below its true base rate, exploiting the bookmaker tendency to overshorten both sides at the expense of the draw.",
+      "gauntlet_is": {
+        "sharpe": -0.234,
+        "win_rate": 0.294,
+        "accuracy": 29.4,
+        "total_trades": 214,
+        "max_dd": 0.579,
+        "profit_factor": 0.946,
+        "roi": -0.176
+      },
+      "live_wr": null,
+      "live_n": 0,
+      "activated_at": ""
+    }
+  ],
+  "published_at": "2026-06-03T13:33:47.118309+00:00"
+}
