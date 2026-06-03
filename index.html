@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Oracle — L9 Football Prediction Intelligence</title>
+  <title>Oracle Esports — L9 Prediction Intelligence</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/style.css" />
@@ -16,14 +16,14 @@
   <div class="topbar-brand">
     <div class="status-dot"></div>
     <div>
-      <div class="topbar-logo">Oracle <span>⚡</span></div>
-      <div class="topbar-sub">L9 Self-Improving Football Prediction Engine</div>
+      <div class="topbar-logo">Oracle <span>Esports</span></div>
+      <div class="topbar-sub">L9 Self-Improving CS2 &amp; LoL Prediction Engine · Paper Portfolio</div>
     </div>
   </div>
   <div class="topbar-right">
     <span>Updated <span id="updated-at">—</span></span>
     <span>·</span>
-    <a href="https://adamdegoat.github.io/jarvis/" style="color:var(--accent);text-decoration:none;font-size:12px">← Hub</a>
+    <a href="https://adamdegoat.github.io/" style="color:var(--accent);text-decoration:none;font-size:12px">← Hub</a>
   </div>
 </div>
 
@@ -34,7 +34,7 @@
     <div class="stat-card">
       <div class="stat-label">Portfolio Equity</div>
       <div class="stat-value" id="stat-equity">—</div>
-      <div class="stat-delta flat">Paper portfolio</div>
+      <div class="stat-delta flat">Paper portfolio · $10k start</div>
     </div>
     <div class="stat-card">
       <div class="stat-label">ROI</div>
@@ -44,7 +44,7 @@
     <div class="stat-card">
       <div class="stat-label">Win Rate</div>
       <div class="stat-value" id="stat-winrate">—</div>
-      <div class="stat-delta flat">Break-even ~54%</div>
+      <div class="stat-delta flat">Break-even ~55%</div>
     </div>
     <div class="stat-card">
       <div class="stat-label">Total Bets</div>
@@ -53,7 +53,7 @@
     </div>
   </div>
 
-  <!-- ── Equity curve + right stats ── -->
+  <!-- ── Equity curve + info ── -->
   <div class="section-row two-col" style="grid-template-columns: 2fr 1fr;">
     <div class="panel">
       <div class="panel-header">
@@ -66,7 +66,7 @@
     </div>
     <div class="panel">
       <div class="panel-header">
-        <span class="panel-title">Risk Metrics</span>
+        <span class="panel-title">System Info</span>
       </div>
       <div class="panel-body">
         <div style="display:flex;flex-direction:column;gap:16px;">
@@ -75,17 +75,23 @@
             <div style="font-size:22px;font-weight:700;color:var(--head)" id="stat-maxdd">—</div>
           </div>
           <div style="border-top:1px solid var(--border);padding-top:16px;">
-            <p style="font-size:12px;color:var(--muted);line-height:1.7;">
-              Oracle uses a self-improving L9 engine that invents betting strategies,
-              validates them through an 8-gate statistical gauntlet, then paper-trades
-              them in a shared $10k pool. Strategies that decay are automatically retired
-              and replaced with new inventions.
+            <p style="font-size:12px;color:var(--muted);line-height:1.8;">
+              Oracle Esports is an <b>L9 autonomous engine</b> that invents
+              CS2 and LoL betting strategies, validates them through an
+              8-gate statistical gauntlet, and paper-trades a shared $10k
+              pool. Strategies that decay in live performance are retired
+              and replaced automatically.
             </p>
           </div>
-          <div style="border-top:1px solid var(--border);padding-top:16px;">
-            <div class="stat-label">Vig Rate</div>
-            <div style="font-size:16px;font-weight:600;color:var(--head)">6.0%</div>
-            <div style="font-size:11px;color:var(--muted)">Applied to all returns</div>
+          <div style="border-top:1px solid var(--border);padding-top:16px;display:flex;gap:24px;">
+            <div>
+              <div class="stat-label">Vig Rate</div>
+              <div style="font-size:15px;font-weight:600;color:var(--head)">6.0%</div>
+            </div>
+            <div>
+              <div class="stat-label">Games</div>
+              <div style="font-size:15px;font-weight:600;color:var(--head)">CS2 · LoL</div>
+            </div>
           </div>
         </div>
       </div>
@@ -103,6 +109,7 @@
         <thead>
           <tr>
             <th>Strategy</th>
+            <th>Game</th>
             <th>Selection</th>
             <th>Status</th>
             <th>Backtest (IS)</th>
@@ -111,40 +118,39 @@
           </tr>
         </thead>
         <tbody id="catalog-body">
-          <tr><td colspan="6" class="empty">Loading...</td></tr>
+          <tr><td colspan="7" class="empty">Loading...</td></tr>
         </tbody>
       </table>
     </div>
   </div>
 
-  <!-- ── Open bets + fixtures ── -->
+  <!-- ── Open bets + upcoming ── -->
   <div class="section-row two-col">
     <div class="panel">
       <div class="panel-header">
         <span class="panel-title">Open Bets</span>
-        <span class="panel-badge" id="stat-open-badge">—</span>
       </div>
       <div class="panel-body" style="padding:0">
         <table class="data-table">
           <thead>
             <tr>
               <th>Match</th>
+              <th>Game</th>
               <th>Selection</th>
               <th>Odds</th>
               <th>Stake</th>
               <th>Strategy</th>
-              <th>Placed</th>
             </tr>
           </thead>
           <tbody id="open-bets-body">
-            <tr><td colspan="6" class="empty">Loading...</td></tr>
+            <tr><td colspan="6" class="empty">No open bets</td></tr>
           </tbody>
         </table>
       </div>
     </div>
     <div class="panel">
       <div class="panel-header">
-        <span class="panel-title">Upcoming Fixtures</span>
+        <span class="panel-title">Upcoming Matches</span>
         <span class="panel-badge">Next 7 days</span>
       </div>
       <div class="panel-body" style="padding:0">
@@ -152,15 +158,13 @@
           <thead>
             <tr>
               <th>Match</th>
+              <th>Game</th>
               <th>Kickoff</th>
-              <th>1</th>
-              <th>X</th>
-              <th>2</th>
               <th>Signal</th>
             </tr>
           </thead>
           <tbody id="fixtures-body">
-            <tr><td colspan="6" class="empty">Loading...</td></tr>
+            <tr><td colspan="4" class="empty">Loading...</td></tr>
           </tbody>
         </table>
       </div>
@@ -178,6 +182,7 @@
         <thead>
           <tr>
             <th>Match</th>
+            <th>Game</th>
             <th>Selection</th>
             <th>Odds</th>
             <th>P&L</th>
@@ -186,16 +191,16 @@
           </tr>
         </thead>
         <tbody id="recent-bets-body">
-          <tr><td colspan="6" class="empty">Loading...</td></tr>
+          <tr><td colspan="7" class="empty">No settled bets yet</td></tr>
         </tbody>
       </table>
     </div>
   </div>
 
-</div><!-- /container -->
+</div>
 
 <footer>
-  Oracle · L9 Self-Improving Football Prediction Engine ·
+  Oracle Esports · L9 Self-Improving Prediction Engine · CS2 &amp; LoL ·
   Paper trading only · Not financial advice ·
   <a href="https://adamdegoat.github.io/">adamdegoat</a>
 </footer>
