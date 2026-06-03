@@ -1,42 +1,6 @@
 {
   "fixtures": [
     {
-      "team_a": "Gaimin Gladiators",
-      "team_b": "Heroic",
-      "game": "csgo",
-      "kickoff": "2026-06-03T17:00:00Z",
-      "tournament": "Stage 1",
-      "tier": "s",
-      "odds_a": 1.72,
-      "odds_b": 2.28,
-      "form_diff": 0.2,
-      "active_strategies_firing": []
-    },
-    {
-      "team_a": "M80",
-      "team_b": "B8",
-      "game": "csgo",
-      "kickoff": "2026-06-03T17:00:00Z",
-      "tournament": "Stage 1",
-      "tier": "s",
-      "odds_a": 1.72,
-      "odds_b": 2.28,
-      "form_diff": 0.0,
-      "active_strategies_firing": []
-    },
-    {
-      "team_a": "Tricked",
-      "team_b": "Phantom",
-      "game": "csgo",
-      "kickoff": "2026-06-03T17:00:00Z",
-      "tournament": "Playoffs",
-      "tier": "b",
-      "odds_a": 1.72,
-      "odds_b": 2.28,
-      "form_diff": 0.2,
-      "active_strategies_firing": []
-    },
-    {
       "team_a": "Nemiga",
       "team_b": "Bushido Wildcats",
       "game": "csgo",
@@ -91,6 +55,18 @@
         "hot-streak-momentum",
         "Hot Streak Momentum"
       ]
+    },
+    {
+      "team_a": "ex-Zero Tenacity",
+      "team_b": "Johnny Speeds",
+      "game": "csgo",
+      "kickoff": "2026-06-05T14:00:00Z",
+      "tournament": "Playoffs",
+      "tier": "b",
+      "odds_a": 2.28,
+      "odds_b": 1.72,
+      "form_diff": -0.1,
+      "active_strategies_firing": []
     },
     {
       "team_a": "MVK Esports",
@@ -254,23 +230,7 @@
         "hot-streak-momentum",
         "Hot Streak Momentum"
       ]
-    },
-    {
-      "team_a": "Hanwha Life Esports",
-      "team_b": "T1",
-      "game": "lol",
-      "kickoff": "2026-06-12T08:00:00Z",
-      "tournament": "Road to MSI",
-      "tier": "a",
-      "odds_a": 2.28,
-      "odds_b": 1.72,
-      "form_diff": -0.3,
-      "active_strategies_firing": [
-        "Streak Momentum Steamroller",
-        "hot-streak-momentum",
-        "Hot Streak Momentum"
-      ]
     }
   ],
-  "published_at": "2026-06-03T15:14:59.872107+00:00"
+  "published_at": "2026-06-03T20:16:18.037526+00:00"
 }

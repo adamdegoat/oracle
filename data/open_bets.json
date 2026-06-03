@@ -59,7 +59,47 @@
       "placed_at": "2026-06-03T15:14:57.782949+00:00",
       "outcome": null,
       "pnl": null
+    },
+    {
+      "id": "bet_1520677_FormDom",
+      "fixture_id": 1520677,
+      "game": "lol",
+      "strategy_name": "Form Dominance Favorite",
+      "strategy_family": "form",
+      "team_a": "Fluxo W7M",
+      "team_b": "paiN Gaming",
+      "kickoff": "2026-06-07T16:00:00Z",
+      "tournament": "Playoffs",
+      "selection": "FAVORITE",
+      "resolved_selection": "TEAM_A",
+      "odds": 1.72,
+      "effective_odds": 1.6168,
+      "stake": 300.0,
+      "status": "OPEN",
+      "placed_at": "2026-06-03T20:16:14.351658+00:00",
+      "outcome": null,
+      "pnl": null
+    },
+    {
+      "id": "bet_1520676_FormDom",
+      "fixture_id": 1520676,
+      "game": "lol",
+      "strategy_name": "Form Dominance Favorite",
+      "strategy_family": "form",
+      "team_a": "RED Canids",
+      "team_b": "Leviatan Esports",
+      "kickoff": "2026-06-07T16:00:00Z",
+      "tournament": "Playoffs",
+      "selection": "FAVORITE",
+      "resolved_selection": "TEAM_A",
+      "odds": 1.72,
+      "effective_odds": 1.6168,
+      "stake": 300.0,
+      "status": "OPEN",
+      "placed_at": "2026-06-03T20:16:14.351680+00:00",
+      "outcome": null,
+      "pnl": null
     }
   ],
-  "published_at": "2026-06-03T15:14:59.872107+00:00"
+  "published_at": "2026-06-03T20:16:18.037526+00:00"
 }
