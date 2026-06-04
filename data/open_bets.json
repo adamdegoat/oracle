@@ -159,7 +159,27 @@
       "placed_at": "2026-06-04T02:16:48.031089+00:00",
       "outcome": null,
       "pnl": null
+    },
+    {
+      "id": "bet_1504744_FormDom",
+      "fixture_id": 1504744,
+      "game": "csgo",
+      "strategy_name": "Form Dominance Favorite",
+      "strategy_family": "form",
+      "team_a": "1WIN",
+      "team_b": "Betclic Apogee Esports",
+      "kickoff": "2026-06-05T17:00:00Z",
+      "tournament": "Playoffs",
+      "selection": "FAVORITE",
+      "resolved_selection": "TEAM_A",
+      "odds": 1.72,
+      "effective_odds": 1.6168,
+      "stake": 300.0,
+      "status": "OPEN",
+      "placed_at": "2026-06-04T14:18:15.984170+00:00",
+      "outcome": null,
+      "pnl": null
     }
   ],
-  "published_at": "2026-06-04T08:17:57.180421+00:00"
+  "published_at": "2026-06-04T14:18:22.287609+00:00"
 }
