@@ -101,7 +101,7 @@
       "tier": "s",
       "odds_a": 1.72,
       "odds_b": 2.28,
-      "form_diff": 0.2,
+      "form_diff": 0.1,
       "active_strategies_firing": [
         "Streak Momentum Steamroller",
         "hot-streak-momentum",
@@ -312,5 +312,5 @@
       ]
     }
   ],
-  "published_at": "2026-06-04T02:16:53.637696+00:00"
+  "published_at": "2026-06-04T08:17:57.180421+00:00"
 }
