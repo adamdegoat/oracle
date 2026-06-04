@@ -25,6 +25,34 @@
       "active_strategies_firing": []
     },
     {
+      "team_a": "THUNDER dOWNUNDER",
+      "team_b": "FlyQuest",
+      "game": "csgo",
+      "kickoff": "2026-06-04T12:00:00Z",
+      "tournament": "Stage 1",
+      "tier": "s",
+      "odds_a": 1.72,
+      "odds_b": 2.28,
+      "form_diff": 0.0,
+      "active_strategies_firing": [
+        "Streak Momentum Steamroller",
+        "hot-streak-momentum",
+        "Hot Streak Momentum"
+      ]
+    },
+    {
+      "team_a": "TYLOO",
+      "team_b": "Sharks",
+      "game": "csgo",
+      "kickoff": "2026-06-04T12:00:00Z",
+      "tournament": "Stage 1",
+      "tier": "s",
+      "odds_a": 1.72,
+      "odds_b": 2.28,
+      "form_diff": 0.1,
+      "active_strategies_firing": []
+    },
+    {
       "team_a": "100 Thieves",
       "team_b": "Ursa",
       "game": "csgo",
@@ -39,6 +67,58 @@
         "elite-form-favorite",
         "Elite Form Domination"
       ]
+    },
+    {
+      "team_a": "MIBR",
+      "team_b": "Lynn Vision",
+      "game": "csgo",
+      "kickoff": "2026-06-04T14:30:00Z",
+      "tournament": "Stage 1",
+      "tier": "s",
+      "odds_a": 2.28,
+      "odds_b": 1.72,
+      "form_diff": -0.1,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "GamerLegion",
+      "team_b": "BIG",
+      "game": "csgo",
+      "kickoff": "2026-06-04T14:30:00Z",
+      "tournament": "Stage 1",
+      "tier": "s",
+      "odds_a": 1.72,
+      "odds_b": 2.28,
+      "form_diff": 0.1,
+      "active_strategies_firing": []
+    },
+    {
+      "team_a": "M80",
+      "team_b": "NRG",
+      "game": "csgo",
+      "kickoff": "2026-06-04T17:00:00Z",
+      "tournament": "Stage 1",
+      "tier": "s",
+      "odds_a": 1.72,
+      "odds_b": 2.28,
+      "form_diff": 0.2,
+      "active_strategies_firing": [
+        "Streak Momentum Steamroller",
+        "hot-streak-momentum",
+        "Hot Streak Momentum"
+      ]
+    },
+    {
+      "team_a": "Liquid",
+      "team_b": "Heroic",
+      "game": "csgo",
+      "kickoff": "2026-06-04T17:00:00Z",
+      "tournament": "Stage 1",
+      "tier": "s",
+      "odds_a": 1.72,
+      "odds_b": 2.28,
+      "form_diff": 0.1,
+      "active_strategies_firing": []
     },
     {
       "team_a": "AM Gaming",
@@ -232,5 +312,5 @@
       ]
     }
   ],
-  "published_at": "2026-06-03T20:16:18.037526+00:00"
+  "published_at": "2026-06-04T02:16:53.637696+00:00"
 }
